@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <link rel="stylesheet" href="./calculator.css">
+   <script src="./calculator.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Calculator</h1>
+        <div id="output">0</div>
+        <input type="text" id="input1" placeholder="value1">
+        <input type="text" id="input2" placeholder="value2">
+
+        <div class="btn-container">
+           <button class="btn" onclick="add()">Addition</button>
+           <button class="btn" onclick="sub()">substraction</button>
+           <button class="btn" onclick="mul()">Multiply</button>
+           <button class="btn" onclick="div()">Division</button>
+           <button class="btn" onclick="resetVal()" id="reset">Reset</button>
+        </div>
+    </div>
+</body>
+</html>
